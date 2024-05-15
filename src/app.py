@@ -5,7 +5,7 @@ import pandas as pd
 import pickle
 
 # Import model
-with open('../Streamlit-ML/models/tree_classifier_streamlit.sav', 'rb') as file:
+with open('../models/tree_classifier_streamlit.sav', 'rb') as file:
     model = pickle.load(file)
 
 # Write title and subtitle
