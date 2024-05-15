@@ -5,7 +5,7 @@ import pandas as pd
 import pickle
 
 # Import model
-with open('../models/tree_classifier_criterion-entropy_maxdepth-15_minsamleaf-1_minsamsplit-2_RS-42.sav', 'rb') as file:
+with open(r'..\Streamlit-ML\models\tree_classifier_streamlit.sav', 'rb') as file:
     model = pickle.load(file)
 
 # Write title and subtitle
